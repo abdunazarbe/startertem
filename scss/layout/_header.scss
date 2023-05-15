@@ -1,0 +1,33 @@
+
+header {
+    width: 100%;
+    background-color: cornflowerblue;
+    backdrop-filter:blur;
+    position: fixed;
+    top:0;
+
+    .nav {
+    
+
+        &_logo {
+            font-size: 24px;
+            color: #030f1a;
+            text-decoration: none;
+        }
+
+        &_list {
+            display: flex;
+            column-gap: 8rem;
+
+            &_item {
+                list-style-type: none;
+
+                &--link {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #030f1a;
+                }
+            }
+        }
+    }
+}
